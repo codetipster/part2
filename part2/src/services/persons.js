@@ -1,5 +1,5 @@
 import axios from "axios";
-const baseUrl = "http://localhost:3001/persons";
+const baseUrl = "/api/persons";
 
 //each of the functions below returns a promise related to their respective axios calls
 const getAll = () => {
